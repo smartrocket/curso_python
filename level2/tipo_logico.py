@@ -1,4 +1,4 @@
 idade = 15
-mai_idade = 16
-eleitor = idade >= mai_idade
+maior_idade = 16
+eleitor = idade >= maior_idade
 print (eleitor)
