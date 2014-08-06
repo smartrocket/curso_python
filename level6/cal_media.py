@@ -1,4 +1,3 @@
-
 #-*- encoding: utf-8 -*-
 notas = [5,6,8,7,9]
 soma = 0
