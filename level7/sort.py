@@ -1,17 +1,9 @@
-Lista = [6,5,3,4,7,1,8,2]
-end = 8
-while end > 1:
+lista = [6,5,3,4,7,1,8,2]
+changed = True
+while changed:
     changed = False
-    x = 0
-    while x < (end-1):
-        if Lista[x] > Lista[x+1]:
+    for i in xrange(len(lista) - 1):
+        if lista[i] > lista[i+1]:
+            lista[i], lista[i+1] = lista[i+1], lista[i]
             changed = True
-            aux = Lista[x]
-            Lista[x] = Lista[x+1]
-            Lista[x+1] = aux
-        x += 1
-    if not changed:
-        break
-    end -= 1
-for e in Lista:
-    print(e)
+print(lista)
