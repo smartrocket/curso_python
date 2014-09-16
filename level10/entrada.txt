@@ -1,0 +1,4 @@
+;Esta linha não deve ser impressa.
+>Esta liha deve ser impressa alinhada a direita
+*Esta linha deve ser centralizada
+Linha normal
