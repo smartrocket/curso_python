@@ -1,0 +1,13 @@
+import os
+os.mkdir("a")
+os.mkdir("b")
+os.mkdir("c")
+print(os.getcwd())
+os.chdir("a")
+print(os.getcwd())
+os.chdir("../b")
+print(os.getcwd())
+os.chdir("..")
+print(os.getcwd())
+os.chdir("c")
+print(os.getcwd())
